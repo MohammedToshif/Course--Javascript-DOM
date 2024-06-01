@@ -4,11 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS DOM Tutorial</title>
+
+
+    <style>
+
+        body {
+            margin: 0;
+        }
+
+
+        .dcode {
+            width: 250px;
+            height: 100px;
+            background: blue;
+        }
+
+
+        /* (06) -  Class list */
+        .bold { font-weight: bold }
+        .red-bg { background: red }
+        .white-text { color: white }
+        .big-font { font-size: 36px }
+
+
+
+        /*  (10) - next element sibling property  */
+
+        nav {
+            position: fixed;
+            z-index: 99;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            font-weight: bold;
+            background: red;
+        }
+
+
+
+
+        /*  (11) - get bounding client rect  */
+
+        .box {
+            box-sizing: border-box;
+            width: 100px;
+            height: 100px;
+            background: #009879;
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+
+
+
+        /*  (12) - outer HTML  */
+
+        div {
+            padding: 20px;
+            font-weight: bold;
+            color: white;
+            background-color: red;
+        }
+
+        #dom {
+            font-style: italic;
+        }
+
+
+
+    </style>
+
 </head>
+
+
     <body>
 
         <!-- tect content -->
-        <h2 id="title">welcome to decode!!</h2>
+        <!-- <h2 id="title">welcome to decode!!</h2> -->
 
 
 
@@ -17,64 +90,124 @@
 
 
         <!-- (04) append child -->
-        <ul id="myList">
+        <!-- <ul id="myList">
             <li>Apple</li>
-        </ul>
+        </ul> -->
 
 
         <!-- (05) document frengment -->
-        <h2 id="title">Document Fragment - dcode</h2>
+        <!-- <h2 id="title">Document Fragment - dcode</h2>
         <ul id="myList">
 
-        </ul>
+        </ul> -->
 
 
         <!-- (06) class list prototype-->
-        <h2 id="title">Class List - dcode</h2>
+        <!-- <h2 id="title">Class List - dcode</h2>
         <p id="myPara">
             yeh mate
-        </p>
+        </p> -->
 
 
 
         <!-- (07) - Dataset property -->
-        <h2 id="title">Dataset - dcode</h2>
+        <!-- <h2 id="title">Dataset - dcode</h2>
         <div id="myDiv" data-name="domenic" data-started-coding-at="15">
             Sample Text
-        </div>
+        </div> -->
 
 
 
         <!-- (08) - insert before - method -->
-        <h2 id="title">Node.insertBefore() - JS DOM - dcode</h2>
+        <!-- <h2 id="title">Node.insertBefore() - JS DOM - dcode</h2>
         <ul id="myList">
             <li>Apples</li>
             <li id="pearsItem">Pears</li>
             <li>Bananas</li>
 
+        </ul> -->
+
+
+
+        <!-- (09) - node clone method -->
+        <!-- <h2 id="title">Node.cloneNode() - JS DOM - dcode</h2>
+        <ul id="myList">
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Pears</li>
+        </ul> -->
+
+
+
+
+        <!-- (10) - next element sibling property -->
+
+        <!-- <nav>
+            Navigation
+        </nav>
+
+        <h2 id="title">Node.nextElementSibling - JS DOM - dcode</h2>
+
+        <ul id="myList">
+            <li>Apples</li>
+            domenic
+            <li>Bananas</li>
+            <li>Pears</li>
         </ul>
 
+        <ul id="myList">
+            <li>Apples</li>
+            domenic
+            <li>Bananas</li>
+            <li>Pears</li>
+        </ul>
+
+        <ul id="myList">
+            <li>Apples</li>
+            domenic
+            <li>Bananas</li>
+            <li>Pears</li>
+        </ul>
+
+        <ul id="myList">
+            <li>Apples</li>
+            domenic
+            <li>Bananas</li>
+            <li>Pears</li>
+        </ul>
+
+        <ul id="myList">
+            <li>Apples</li>
+            domenic
+            <li>Bananas</li>
+            <li>Pears</li>
+        </ul> -->
 
 
 
-        <style>
-            .dcode {
-                width: 250px;
-                height: 100px;
-                background: blue;
-            }
+
+        <!-- (11) - get bounding client rect -->
+
+        <!-- <h2 id="title">Element.getBoundingClientRect - JS DOM - dcode</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsa. Sed eveniet ad natus porro, nihil qui omnis maxime consequuntur, laborum corporis consectetur nostrum eos hic atque nobis veritatis at!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsa. Sed eveniet ad natus porro, nihil qui omnis maxime consequuntur, laborum corporis consectetur nostrum eos hic atque nobis veritatis at!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsa. Sed eveniet ad natus porro, nihil qui omnis maxime consequuntur, laborum corporis consectetur nostrum eos hic atque nobis veritatis at!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsa. Sed eveniet ad natus porro, nihil qui omnis maxime consequuntur, laborum corporis consectetur nostrum eos hic atque nobis veritatis at!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, ipsa. Sed eveniet ad natus porro, nihil qui omnis maxime consequuntur, laborum corporis consectetur nostrum eos hic atque nobis veritatis at!</p>
+
+        <div class="box"></div> -->
 
 
-            /* (06) -  Class list */
-            .bold { font-weight: bold }
-            .red-bg { background: red }
-            .white-text { color: white }
-            .big-font { font-size: 36px }
 
 
-        </style>
 
-    </body>
+        <!-- (12) - outer HTML -->
+        
+        <h2 id="title">Element.outerHTML - JS DOM - dcode</h2>
+
+
+
 
     <!-- <script src="01_create-element.js"></script> -->
     <!-- <script src="02_Set-Attribute.js"></script> -->
@@ -83,6 +216,17 @@
     <!-- <script src="05_document-fragments.js"></script> -->
     <!-- <script src="06_classlist-property.js"></script> -->
     <!-- <script src="07_dataset-property.js"></script> -->
-    <script src="08_insert-before.js"></script>
+    <!-- <script src="08_insert-before.js"></script> -->
+    <!-- <script src="09_node-clone.js"></script> -->
+    <!-- <script src="10_next-element-sibling.js"></script> -->
+    <!-- <script src="11_get-bounding-client-rect.js"></script> -->
+    <script src="12_outer-html.js"></script>
+
+
+        
+
+    </body>
+
+   
 
 </html>
