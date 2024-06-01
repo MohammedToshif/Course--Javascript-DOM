@@ -12,14 +12,49 @@
 
 
 
-        <!-- set attribute -->
+        <!-- (02) set attribute -->
         <!-- <input type="text" id="myInput" value="sample" /> -->
 
 
-        <!-- append child -->
+        <!-- (04) append child -->
         <ul id="myList">
             <li>Apple</li>
         </ul>
+
+
+        <!-- (05) document frengment -->
+        <h2 id="title">Document Fragment - dcode</h2>
+        <ul id="myList">
+
+        </ul>
+
+
+        <!-- (06) class list prototype-->
+        <h2 id="title">Class List - dcode</h2>
+        <p id="myPara">
+            yeh mate
+        </p>
+
+
+
+        <!-- (07) - Dataset property -->
+        <h2 id="title">Dataset - dcode</h2>
+        <div id="myDiv" data-name="domenic" data-started-coding-at="15">
+            Sample Text
+        </div>
+
+
+
+        <!-- (08) - insert before - method -->
+        <h2 id="title">Node.insertBefore() - JS DOM - dcode</h2>
+        <ul id="myList">
+            <li>Apples</li>
+            <li id="pearsItem">Pears</li>
+            <li>Bananas</li>
+
+        </ul>
+
+
 
 
         <style>
@@ -28,6 +63,15 @@
                 height: 100px;
                 background: blue;
             }
+
+
+            /* (06) -  Class list */
+            .bold { font-weight: bold }
+            .red-bg { background: red }
+            .white-text { color: white }
+            .big-font { font-size: 36px }
+
+
         </style>
 
     </body>
@@ -35,6 +79,10 @@
     <!-- <script src="01_create-element.js"></script> -->
     <!-- <script src="02_Set-Attribute.js"></script> -->
     <!-- <script src="03_text-content.js"></script> -->
-    <script src="04_append-Child.js"></script>
+    <!-- <script src="04_append-Child.js"></script> -->
+    <!-- <script src="05_document-fragments.js"></script> -->
+    <!-- <script src="06_classlist-property.js"></script> -->
+    <!-- <script src="07_dataset-property.js"></script> -->
+    <script src="08_insert-before.js"></script>
 
 </html>
