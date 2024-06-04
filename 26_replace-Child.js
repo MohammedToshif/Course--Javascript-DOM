@@ -1,15 +1,15 @@
 
-// replace and existing child node with a new node, giving you have the parent element or the parent node..
+// // replace and existing child node with a new node, giving you have the parent element or the parent node..
 
 
-const myList = document.getElementById("myList");
+// const myList = document.getElementById("myList");
 
-const cssListItem = myList.children[1];
+// const cssListItem = myList.children[1];
 
 
-// create a new Element/Node
+// // create a new Element/Node
 
-const newListItem = document.createElement("li");
-newListItem.textContent = "jQuery";
+// const newListItem = document.createElement("li");
+// newListItem.textContent = "jQuery";
 
-myList.replaceChild(newListItem, cssListItem);
+// myList.replaceChild(newListItem, cssListItem);

@@ -7,14 +7,16 @@ ans.) A way you can event listener once for multiple elements with support for a
 
 
 const myList = document.getElementById("myList");
+console.log(myList);
 
-myList.addEventListener("click", function (e) {
-    // console.log(e);
+myList.addEventListener("click", function(e) {
+    console.log(e.target);
 
     const target = e.target;
 
     if (target.matches("li")) {
-        target.style.backgroundColor = "red";
+        // target.style.backgroundColor = "red";
+        target.classList.toggle('red')
     }
 });
 
