@@ -1,5 +1,5 @@
 
-document.title = 'My new title';
+document.title = 'My new title2';
 
 
 // (2) My new title!

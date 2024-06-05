@@ -16,14 +16,14 @@
 
 // Parent Element            
 
-const myList = document.getElementById("myList");
+// const myList = document.getElementById("myList");
 
-const fruitList = ["Banana", "Orange", "Mango", "Lemon"];
+// const fruitList = ["Banana", "Orange", "Mango", "Lemon"];
 
-for (let fruit of fruitList) {
-    let newListItem = document.createElement('li');
-    newListItem.textContent = fruit;
+// for (let fruit of fruitList) {
+//     let newListItem = document.createElement('li');
+//     newListItem.textContent = fruit;
 
-    myList.appendChild(newListItem);
-}
+//     myList.appendChild(newListItem);
+// }
 

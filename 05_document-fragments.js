@@ -1,5 +1,9 @@
 
-// document fregment :- it is a vertual, invisible HTML element
+/* document fregment :- it is a vertual, invisible HTML element
+
+The DocumentFragment interface represents a minimal document object that has no parent.
+
+*/
 
 /*
     Document Fragment;
@@ -12,20 +16,20 @@
 */
 
 
-const myList = document.getElementById('myList');
-const docFrag = document.createDocumentFragment();
+// const myList = document.getElementById('myList');
+// const docFrag = document.createDocumentFragment();
 
-let item1 = document.createElement('li');
-let item2 = document.createElement('li');
+// let item1 = document.createElement('li');
+// let item2 = document.createElement('li');
 
-item1.textContent = 'Apples';
-item2.textContent = 'Bananas';
+// item1.textContent = 'Apples';
+// item2.textContent = 'Bananas';
 
-docFrag.appendChild(item1);
-docFrag.appendChild(item2);
+// docFrag.appendChild(item1);
+// docFrag.appendChild(item2);
 
 // console.log(docFrag);
 
-myList.appendChild(docFrag);
+// myList.appendChild(docFrag);
 
-console.log(docFrag);
+// console.log(docFrag);

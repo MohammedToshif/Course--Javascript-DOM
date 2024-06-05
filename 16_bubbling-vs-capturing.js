@@ -6,7 +6,8 @@
 //     console.log("I am the PARENT.");
 // }, true);
 
-// child.addEventListener("click", function() {
+// child.addEventListener("click", function(event) {
+    // event.stopPropagation();    // stop bubbling
 //     console.log("I am the CHILD.");
 // });
 

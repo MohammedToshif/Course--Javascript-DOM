@@ -1,5 +1,10 @@
-// with elements you can insert a new elements inside a parent element before a perticular element in the child list...
+/* with elements you can insert a new elements 
+inside a parent element before a perticular element in the child list...
 
+
+The insertBefore() method of the Node interface inserts a node before a reference node as a child of a specified parent node.
+
+*/
 
 const myList = document.getElementById('myList');
 const pearsItem = document.getElementById('pearsItem');
