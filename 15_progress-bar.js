@@ -4,8 +4,8 @@ class ProgressBar {
         this.valueElem = element.querySelector('.progress-bar-value');
         this.fillElem = element.querySelector('.progress-bar-fill');
 
-        // console.log(this.valueElem);
-        // console.log(this.fillElem);
+        console.log(this.valueElem);
+        console.log(this.fillElem);
 
         this.setValue(initialValue);
     }
